@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Geral*/
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin: 15px;
+	color: black;
+	font-size: 2.5em;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+/*Menus*/
+#menu{
+	text-align: right;
+	padding: 35px;
+	background: blue;
+}
+
+#area-desenvolver{
+	display: inline-block;
+	width: 500px;
+	padding: 35px;
+	margin: 25px;
+	text-align: left;
+}
+
+#area-f-t{
+	float: right;
+	width: 500px;
+	padding: 35px;
+	margin: 25px;
+	text-align: left;	
+}
+
+
+
+/*link's*/
+a{
+	text-decoration: none;
+	padding: 20px;
+    margin: 20px;
+}
+
+ a:link, a:visited {
+	color: white;	
+}
+
+a:hover{
+	color: black;
+}
+
+/*Rodape*/
+#rodape{
+	color: white;
+	text-align: left;
+	padding: 35px;
+	background: blue;
+	clear: both;
+}
